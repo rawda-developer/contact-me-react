@@ -13,8 +13,8 @@ body {
 } */
 .header img {
   object-fit: cover;
-  object-position: 0 -130px;
-  height: 40vh;
+  object-position: center center;
+  height: 100%;
   width: 40vw;
   max-width: 100%;
 }
@@ -78,4 +78,13 @@ body {
 }
 .details > p:last-child {
   margin-bottom: 0;
+}
+@media screen and (max-width=1600px) {
+  .header img {
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    width: 40vw;
+    max-width: 100%;
+  }
 }

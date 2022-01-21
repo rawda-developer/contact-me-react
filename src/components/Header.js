@@ -3,9 +3,8 @@ export default function Header() {
   return (
     <>
       <div className="header">
-        <div className="header--image-wrapper">
-          <img alt="Rawda Yasser" src={logo} />
-        </div>
+        <img alt="Rawda Yasser" src={logo} />
+
         <h2>Rawda Yasser</h2>
         <h3>Software Developer</h3>
       </div>
